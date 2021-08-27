@@ -41,8 +41,6 @@ if __name__ == "__main__":
 
                 # 透過捕捉到地址放入函式中取得json資料
                 json_data = addrTo(addr)
-                # print(json)
-                # time.sleep(0)
 
                 # 利用正則來擷取我們所需的經緯度資料
                 # \d+\.?\d* 小數點形式的數字
